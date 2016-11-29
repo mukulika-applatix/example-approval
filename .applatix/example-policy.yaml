@@ -90,5 +90,5 @@ when:
     event: on_cron
     target_branches:
       - ".*"
-    schedule: "*/15 * * * *"
+    schedule: "*/30 * * * *"
     timezone: "US/Pacific"
