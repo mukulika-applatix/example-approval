@@ -9,6 +9,8 @@ inputs:
       default: "%%session.commit%%"
     repo:
       default: "%%session.repo%%"
+    sleep_in_seconds:
+      default: "1800"
 steps:
 - checkout:
     template: axscm-checkout

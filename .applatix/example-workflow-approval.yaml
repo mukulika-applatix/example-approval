@@ -17,6 +17,8 @@ inputs:
       default: "0"
     timeout_in_minutes:
       default: "30"
+    sleep_in_seconds:
+      default: "1800"
 steps:
 - checkout:
     template: axscm-checkout
