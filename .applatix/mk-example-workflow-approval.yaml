@@ -1,7 +1,7 @@
 ---
 type: service_template
 subtype: workflow
-name: example-workflow-approval
+name: mk-example-workflow-approval
 description: Example workflow with approval
 
 inputs:
